@@ -1,5 +1,4 @@
 const Test = require('@codewars/test-compat');
-require('../src/solution')
 
 describe('check for factor', function () {
     it('should return true', function () {
@@ -15,3 +14,14 @@ describe('check for factor', function () {
         Test.assertEquals(checkForFactor(24617, 3), false)
     })
 })
+
+
+
+function checkForFactor(base, factor) {
+
+    if (base % factor == 0) {
+        return true
+    }
+
+    return false;
+}

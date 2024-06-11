@@ -1,4 +1,10 @@
-function checkForFactor(base, factor) {
-    
-    return true;
-}
+
+
+
+   function checkForFactor(base, factor) {  // nie uzywam
+
+        return true;
+    }
+
+
+
